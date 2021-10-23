@@ -8,7 +8,6 @@ export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
-      <HeaderTabs />
       <Home />
     </View>
   );
@@ -17,7 +16,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
-    paddingTop: 20,
+    backgroundColor: "#eee",
+    paddingTop: 30,
   },
 });
